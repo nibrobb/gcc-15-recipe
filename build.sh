@@ -18,7 +18,6 @@ CONFIG_ARGS=(
     --with-gcc-major-version-only
     --program-suffix=-15
     --enable-threads=posix
-    --enable-shared
     --enable-c99
     --enable-long-long
     --with-gnu-ld
