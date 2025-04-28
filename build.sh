@@ -4,13 +4,6 @@ set -o pipefail
 set -xeu
 
 # TODO: Look for dependencies, if debian, install from apt
-# Assuming all dependencies exist for now
-# TODO: check if nproc exists
-
-nproc_cpus=$(nproc --all)
-
-# Set to count from nproc (default 8)
-cpus="${nproc_cpus:-8}"
 
 CONFIG_ARGS=(
     --with-pkgversion='Custom build GCC 15.1.0'
