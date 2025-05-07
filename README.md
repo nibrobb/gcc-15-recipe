@@ -19,7 +19,7 @@ make -j 32
 ```
 
 > [!TIP]
-> Replace `32` with however many threads/cpus you with to compile with
+> Replace `32` with however many threads/cpus you wish to compile with
 
 
 ## Install
